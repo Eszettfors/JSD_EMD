@@ -1,0 +1,240 @@
+country_code,country_name,continent,region_wb,naive_div_q_1,phyl_div_q_1
+AD,Andorra,Europe,Europe & Central Asia,5.224311699794344,2.243713329059633
+AE,United Arab Emirates,Asia,Middle East & North Africa,2.6171732691086596,2.0774935970936284
+AF,Afghanistan,Asia,South Asia,1.7124431822876975,1.4290249124171772
+AG,Antigua and Barbuda,North America,Latin America & Caribbean,1.6918523239509011,1.3445667103130414
+AI,Anguilla,North America,Latin America & Caribbean,1.9743870098394138,1.5049366144598981
+AL,Albania,Europe,Europe & Central Asia,4.0725477061724495,2.4313262022867828
+AM,Armenia,Asia,Europe & Central Asia,3.740452309901444,2.324149858018521
+AO,Angola,Africa,Sub-Saharan Africa,1.9426483430028858,1.5039259877608724
+AQ,Antarctica,Antarctica,Antarctica,7.221432289787964,3.761715513793394
+AR,Argentina,South America,Latin America & Caribbean,1.6698656579724696,1.4186057323678787
+AS,American Samoa,Oceania,East Asia & Pacific,1.6531948314652156,1.4799078084675945
+AT,Austria,Europe,Europe & Central Asia,2.616503120870143,1.732125424298783
+AU,Australia,Oceania,East Asia & Pacific,1.3605095694845277,1.2523578853684756
+AW,Aruba,North America,Latin America & Caribbean,2.685705284284418,1.7789720300045502
+AX,Åland,Europe,Europe & Central Asia,3.5097892893781104,2.216868460791864
+AZ,Azerbaijan,Asia,Europe & Central Asia,4.205924895085246,2.919179083386826
+BA,Bosnia and Herzegovina,Europe,Europe & Central Asia,5.309838250307256,2.162183210155415
+BB,Barbados,North America,Latin America & Caribbean,1.3313528352764807,1.1683748098085653
+BD,Bangladesh,Asia,South Asia,2.1003583093822265,1.7334160597854222
+BE,Belgium,Europe,Europe & Central Asia,4.471021571509531,2.7239323519749545
+BF,Burkina Faso,Africa,Sub-Saharan Africa,1.9036196383372377,1.5949466311900642
+BG,Bulgaria,Europe,Europe & Central Asia,3.193631657071542,2.176086698362928
+BH,Bahrain,Asia,Middle East & North Africa,2.6141711974406925,2.245556585790566
+BI,Burundi,Africa,Sub-Saharan Africa,2.6721111123163466,2.1549680712348267
+BJ,Benin,Africa,Sub-Saharan Africa,2.3776512699773016,1.8532490904882712
+BL,Saint Barthélemy,North America,Latin America & Caribbean,3.042812584178645,2.028350711477519
+BM,Bermuda,North America,North America,1.3870567040076813,1.198354709899852
+BN,Brunei,Asia,East Asia & Pacific,2.2044084374029045,1.81341327961497
+BO,Bolivia,South America,Latin America & Caribbean,1.6272124024514478,1.3546937353216477
+BR,Brazil,South America,Latin America & Caribbean,2.0902946914443716,1.6663084599343918
+BS,Bahamas,North America,Latin America & Caribbean,2.2458812142823463,1.584517043071153
+BT,Bhutan,Asia,South Asia,2.4240162086531556,1.7257399324884553
+BW,Botswana,Africa,Sub-Saharan Africa,1.5012411575382485,1.2675446508965003
+BY,Belarus,Europe,Europe & Central Asia,1.9434236038610435,1.4076861837832784
+BZ,Belize,North America,Latin America & Caribbean,4.086934957048814,2.3250886257192467
+CA,Canada,North America,North America,2.0699972479498885,1.6637051130638107
+CD,Democratic Republic of the Congo,Africa,Sub-Saharan Africa,1.8103071906159314,1.5471374854842834
+CF,Central African Republic,Africa,Sub-Saharan Africa,3.9091031577518143,2.554208614147161
+CG,Republic of the Congo,Africa,Sub-Saharan Africa,2.2130103574622844,1.7663180237124112
+CH,Switzerland,Europe,Europe & Central Asia,4.458827074445276,2.6279901706662896
+CI,Ivory Coast,Africa,Sub-Saharan Africa,2.0248996608617866,1.643318174723748
+CK,Cook Islands,Oceania,East Asia & Pacific,1.7883650824185644,1.3976665151428327
+CL,Chile,South America,Latin America & Caribbean,1.7648926587189713,1.4884152938520254
+CM,Cameroon,Africa,Sub-Saharan Africa,2.319493246132813,1.9040129866586306
+CN,China,Asia,East Asia & Pacific,6.692951582970555,3.6651777826200225
+CO,Colombia,South America,Latin America & Caribbean,1.5479135549523844,1.3422272084738605
+CR,Costa Rica,North America,Latin America & Caribbean,2.2354263775423817,1.7997097000219207
+CU,Cuba,North America,Latin America & Caribbean,2.14235952155424,1.6564312703165238
+CV,Cape Verde,Africa,Sub-Saharan Africa,3.9568101795258177,2.2472587722132658
+CW,Curaçao,North America,Latin America & Caribbean,3.488193442916736,2.067602269319149
+CY,Cyprus,Asia,Europe & Central Asia,4.2912563754403275,2.7399502899919153
+CZ,Czech Republic,Europe,Europe & Central Asia,2.947772130339361,1.8792272623016417
+DE,Germany,Europe,Europe & Central Asia,2.7904840123868744,1.811807178964263
+DJ,Djibouti,Africa,Middle East & North Africa,3.270074678005694,2.639612332948218
+DK,Denmark,Europe,Europe & Central Asia,3.3451344126421394,1.9219312918723646
+DM,Dominica,North America,Latin America & Caribbean,1.6122905641691359,1.3182085781822022
+DO,Dominican Republic,North America,Latin America & Caribbean,1.868441450769281,1.5315435226433172
+DZ,Algeria,Africa,Middle East & North Africa,3.530640301721867,2.937203648617401
+EC,Ecuador,South America,Latin America & Caribbean,1.6088770386272382,1.3749500466046394
+EE,Estonia,Europe,Europe & Central Asia,4.015710953131503,3.0133124890181806
+EG,Egypt,Africa,Middle East & North Africa,2.6875372182080035,2.2170848704979904
+EH,Western Sahara,Africa,Middle East & North Africa,2.956700695209406,2.6762520342013296
+ER,Eritrea,Africa,Sub-Saharan Africa,2.2851063043737048,1.8400469932116563
+ES,Spain,Europe,Europe & Central Asia,2.685780390150192,1.7224692032397515
+ET,Ethiopia,Africa,Sub-Saharan Africa,1.919368673510715,1.6055552080188755
+FI,Finland,Europe,Europe & Central Asia,2.948155365882589,2.443009542294309
+FJ,Fiji,Oceania,East Asia & Pacific,1.477881977741888,1.2868910824196609
+FK,Falkland Islands,South America,Latin America & Caribbean,1.525671854026718,1.2733832320874794
+FM,Federated States of Micronesia,Oceania,East Asia & Pacific,2.6167510773001257,1.9697629577551488
+FO,Faroe Islands,Europe,Europe & Central Asia,3.0544787115913685,1.6937670567661907
+FR,France,Europe,Europe & Central Asia,2.4983054828916154,1.832403118168934
+GA,Gabon,Africa,Sub-Saharan Africa,1.9639042563504228,1.594096477372553
+GB,United Kingdom,Europe,Europe & Central Asia,1.4927275184354634,1.2605111974919516
+GD,Grenada,North America,Latin America & Caribbean,1.5368453698275835,1.2800763066667789
+GE,Georgia,Asia,Europe & Central Asia,4.485047847920733,3.3471312917429215
+GG,Guernsey,Europe,Europe & Central Asia,1.3174960913290792,1.1530069891681882
+GH,Ghana,Africa,Sub-Saharan Africa,1.3547239042385708,1.1909997565845527
+GI,Gibraltar,Europe,Europe & Central Asia,2.397164663459055,1.6511009973050486
+GL,Greenland,North America,Europe & Central Asia,7.342286904762613,3.0951123943569634
+GM,Gambia,Africa,Sub-Saharan Africa,2.702100002041651,1.891564406008074
+GN,Guinea,Africa,Sub-Saharan Africa,2.118910865564639,1.7627407360118568
+GQ,Equatorial Guinea,Africa,Sub-Saharan Africa,3.72416948060377,2.36505839420302
+GR,Greece,Europe,Europe & Central Asia,2.980713062157521,2.1639500939566227
+GS,South Georgia and the South Sandwich Islands,South America,Antarctica,2.3911107929212987,1.9557860011176418
+GT,Guatemala,North America,Latin America & Caribbean,1.5798411469357796,1.383150828485191
+GU,Guam,Oceania,East Asia & Pacific,1.6489810572473491,1.4670731779403228
+GW,Guinea-Bissau,Africa,Sub-Saharan Africa,3.5358083285311386,2.158047278606882
+GY,Guyana,South America,Latin America & Caribbean,1.4101060107666,1.220193313157634
+HK,Hong Kong,Asia,East Asia & Pacific,2.739075029160114,2.4178526408448744
+HM,Heard Island and McDonald Islands,Antarctica,Sub-Saharan Africa,1,1
+HN,Honduras,North America,Latin America & Caribbean,1.8389058923100932,1.5602064453432332
+HR,Croatia,Europe,Europe & Central Asia,3.731692407004353,2.1340440079689778
+HT,Haiti,North America,Latin America & Caribbean,1.88843406645512,1.5231748146135486
+HU,Hungary,Europe,Europe & Central Asia,2.59151306133764,2.2552445922454
+ID,Indonesia,Asia,East Asia & Pacific,2.481686179125942,2.222529069237355
+IE,Ireland,Europe,Europe & Central Asia,2.513796828230998,1.7641475991526858
+IL,Israel,Asia,Middle East & North Africa,3.195034681368867,2.5514018332127204
+IM,Isle of Man,Europe,Europe & Central Asia,1.8742511705928746,1.458655365743526
+IN,India,Asia,South Asia,1.8465321443269642,1.50541249399957
+IO,British Indian Ocean Territory,Asia,Sub-Saharan Africa,1.0705777121188274,1.0527047727823526
+IQ,Iraq,Asia,Middle East & North Africa,2.6974583209601506,2.2954518280501954
+IR,Iran,Asia,Middle East & North Africa,2.1646752171357138,1.872110282071878
+IS,Iceland,Europe,Europe & Central Asia,3.256123917212084,1.8054279430725053
+IT,Italy,Europe,Europe & Central Asia,1.8207056306289515,1.4580840416650802
+JE,Jersey,Europe,Europe & Central Asia,1.3765267234733187,1.1832361268327096
+JM,Jamaica,North America,Latin America & Caribbean,1.3088137149054935,1.156225030619111
+JO,Jordan,Asia,Middle East & North Africa,2.483542885734131,2.1533872971793224
+JP,Japan,Asia,East Asia & Pacific,1.3460499904223737,1.3224595333415272
+KE,Kenya,Africa,Sub-Saharan Africa,1.4768032873872445,1.3004054620617318
+KG,Kyrgyzstan,Asia,Europe & Central Asia,2.9566306465229726,2.325493837557605
+KH,Cambodia,Asia,East Asia & Pacific,4.483672937837293,3.3216667366462578
+KI,Kiribati,Oceania,East Asia & Pacific,1.8845011671710798,1.5504120757568827
+KM,Comoros,Africa,Sub-Saharan Africa,2.3625456143707955,1.904079599938112
+KN,Saint Kitts and Nevis,North America,Latin America & Caribbean,1.5891275758568146,1.3263492354838318
+KP,North Korea,Asia,East Asia & Pacific,1.4961905229451802,1.2967103118696708
+KR,South Korea,Asia,East Asia & Pacific,2.874542521252058,2.5584741699633433
+KW,Kuwait,Asia,Middle East & North Africa,2.7199303102385284,2.35430797388615
+KY,Cayman Islands,North America,Latin America & Caribbean,1.5797235657038955,1.3121101380935247
+KZ,Kazakhstan,Asia,Europe & Central Asia,2.7329372912588212,2.273764166388854
+LA,Laos,Asia,East Asia & Pacific,5.83391854160181,4.037275294812733
+LB,Lebanon,Asia,Middle East & North Africa,3.1764202712995364,2.624487255997294
+LC,Saint Lucia,North America,Latin America & Caribbean,1.5678828573648556,1.2950210000420286
+LI,Liechtenstein,Europe,Europe & Central Asia,2.8514946759605246,1.8214899705866199
+LK,Sri Lanka,Asia,South Asia,1.952863394249345,1.6006616440474983
+LR,Liberia,Africa,Sub-Saharan Africa,1.559535793649818,1.3102212511829767
+LS,Lesotho,Africa,Sub-Saharan Africa,1.3480343611825836,1.2064926921822305
+LT,Lithuania,Europe,Europe & Central Asia,3.7501857542763863,2.216208415196363
+LU,Luxembourg,Europe,Europe & Central Asia,6.277197301801588,3.1237242806841268
+LV,Latvia,Europe,Europe & Central Asia,4.8257865075078925,2.655818379520255
+LY,Libya,Africa,Middle East & North Africa,2.4278119055898397,2.087977842553248
+MA,Morocco,Africa,Middle East & North Africa,3.7910008569164346,3.0374624360088194
+MC,Monaco,Europe,Europe & Central Asia,4.84518573155421,2.744619736510566
+MD,Moldova,Europe,Europe & Central Asia,4.133117146518443,2.6015168305613314
+ME,Montenegro,Europe,Europe & Central Asia,5.409760102604905,2.4050683066939262
+MF,Saint Martin,North America,Latin America & Caribbean,3.452767734474916,2.2635520526073774
+MG,Madagascar,Africa,Sub-Saharan Africa,2.3047991232042504,1.8536814256485779
+MH,Marshall Islands,Oceania,East Asia & Pacific,1.8666418923764876,1.6542337092381487
+MK,North Macedonia,Europe,Europe & Central Asia,4.088309615126999,2.2503447037498923
+ML,Mali,Africa,Sub-Saharan Africa,2.401747142171622,1.8975605758180418
+MM,Myanmar,Asia,East Asia & Pacific,2.5906551954057866,2.1549902982297695
+MN,Mongolia,Asia,East Asia & Pacific,4.233194651075207,3.136734977942677
+MO,Macao,Asia,East Asia & Pacific,2.1607594731826625,1.9930339535574286
+MP,Northern Mariana Islands,Oceania,East Asia & Pacific,2.615908731389075,2.0325247945614775
+MR,Mauritania,Africa,Sub-Saharan Africa,3.644165315124613,3.04031159602082
+MS,Montserrat,North America,Latin America & Caribbean,1.826809761931078,1.4041223949075412
+MT,Malta,Europe,Middle East & North Africa,2.5723234734360574,1.7250999416870016
+MU,Mauritius,Africa,Sub-Saharan Africa,2.1595851484515003,1.6736804186547067
+MV,Maldives,Asia,South Asia,2.267485700749757,1.6122728428080435
+MW,Malawi,Africa,Sub-Saharan Africa,1.504081479559852,1.2941970334396053
+MX,Mexico,North America,Latin America & Caribbean,1.718156846039876,1.4843709658390516
+MY,Malaysia,Asia,East Asia & Pacific,2.9177713720422793,2.571223861444765
+MZ,Mozambique,Africa,Sub-Saharan Africa,2.366071871804647,1.816277255251426
+NA,Namibia,Africa,Sub-Saharan Africa,1.99916174030077,1.4395300478952178
+NC,New Caledonia,Oceania,East Asia & Pacific,1.764012307105798,1.5063158970327615
+NE,Niger,Africa,Sub-Saharan Africa,2.670800563069985,2.095482728957437
+NF,Norfolk Island,Oceania,East Asia & Pacific,1.9118778225614255,1.37848584143857
+NG,Nigeria,Africa,Sub-Saharan Africa,1.4040717649157797,1.2787760544875684
+NI,Nicaragua,North America,Latin America & Caribbean,1.8040103143128963,1.5041959358580075
+NL,Netherlands,Europe,Europe & Central Asia,4.409104020015352,2.367650204969148
+NO,Norway,Europe,Europe & Central Asia,3.5985264844917815,1.96352984330123
+NP,Nepal,Asia,South Asia,1.6230770840632947,1.3250223916362938
+NR,Nauru,Oceania,East Asia & Pacific,2.140254411450216,1.6748600862864682
+NU,Niue,Oceania,East Asia & Pacific,3.1546383509697677,1.868792789018885
+NZ,New Zealand,Oceania,East Asia & Pacific,1.3968871109142174,1.2694936722335957
+OM,Oman,Asia,Middle East & North Africa,2.833107957230295,2.4063352219047482
+PA,Panama,North America,Latin America & Caribbean,2.1985263105648074,1.7657169365880787
+PE,Peru,South America,Latin America & Caribbean,1.6397685116955087,1.4087712404172024
+PF,French Polynesia,Oceania,East Asia & Pacific,2.2128342141887485,1.738778531357203
+PG,Papua New Guinea,Oceania,East Asia & Pacific,1.3868366312257603,1.248473401427405
+PH,Philippines,Asia,East Asia & Pacific,1.4900157500274576,1.3630465502925218
+PK,Pakistan,Asia,South Asia,1.3012808305508818,1.15377981731334
+PL,Poland,Europe,Europe & Central Asia,2.2378816630822067,1.636613213807993
+PM,Saint Pierre and Miquelon,North America,North America,2.1434955124689696,1.6691966856429101
+PN,Pitcairn Islands,Oceania,East Asia & Pacific,6.5401196179037635,3.019240185741704
+PR,Puerto Rico,North America,Latin America & Caribbean,2.3509203296589685,1.9446421470978197
+PS,Palestine,Asia,Middle East & North Africa,2.236295847697165,1.9280715027749977
+PT,Portugal,Europe,Europe & Central Asia,3.0257713603940943,2.106269228506295
+PW,Palau,Oceania,East Asia & Pacific,3.9963781159315834,2.692816436220069
+PY,Paraguay,South America,Latin America & Caribbean,2.0832410311223724,1.6039617458671718
+QA,Qatar,Asia,Middle East & North Africa,2.654839822317752,2.1808455963071394
+RO,Romania,Europe,Europe & Central Asia,3.797872912454551,2.565478737359626
+RS,Serbia,Europe,Europe & Central Asia,4.009083946392245,2.2424570174262786
+RU,Russia,Europe,Europe & Central Asia,1.725349248204932,1.39467069584862
+RW,Rwanda,Africa,Sub-Saharan Africa,2.3827442441080695,1.8848656545646054
+SA,Saudi Arabia,Asia,Middle East & North Africa,2.3042649888871987,2.0838415563275547
+SB,Solomon Islands,Oceania,East Asia & Pacific,1.705366381725988,1.506619479103157
+SC,Seychelles,Africa,Sub-Saharan Africa,9.549123834117019,4.107578166487655
+SD,Sudan,Africa,Sub-Saharan Africa,2.301153503777756,2.0533965790638034
+SE,Sweden,Europe,Europe & Central Asia,3.1289640631322557,1.9913702705043064
+SG,Singapore,Asia,East Asia & Pacific,2.9293761568927996,2.291604737190079
+SH,"Saint Helena, Ascension, and Tristan da Cunha",Africa,Sub-Saharan Africa,3.652342786709979,2.27397880621202
+SI,Slovenia,Europe,Europe & Central Asia,3.392550168400933,2.080084056195915
+SK,Slovakia,Europe,Europe & Central Asia,4.4535143435254145,2.308973871430619
+SL,Sierra Leone,Africa,Sub-Saharan Africa,1.4844704493105532,1.272287806023345
+SM,San Marino,Europe,Europe & Central Asia,2.192420375192499,1.6203048768197028
+SN,Senegal,Africa,Sub-Saharan Africa,2.479169267425428,1.8795071061040662
+SO,Somalia,Africa,Sub-Saharan Africa,2.8828149715003826,2.4446608658052202
+SR,Suriname,South America,Latin America & Caribbean,2.840629065598157,1.8302257748008162
+SS,South Sudan,Africa,Sub-Saharan Africa,2.285617230275273,1.898405235276086
+ST,São Tomé and Príncipe,Africa,Sub-Saharan Africa,3.297959986173682,2.0433525917190756
+SV,El Salvador,North America,Latin America & Caribbean,1.6931446929330911,1.465141396921465
+SX,Sint Maarten,North America,Latin America & Caribbean,2.4602712158546325,1.7047515488480667
+SY,Syria,Asia,Middle East & North Africa,2.1824632117616534,1.907983700922631
+SZ,Eswatini,Africa,Sub-Saharan Africa,1.5428964702940715,1.3129501888630977
+TC,Turks and Caicos Islands,North America,Latin America & Caribbean,1.8041304169143773,1.431341694667296
+TD,Chad,Africa,Sub-Saharan Africa,3.204399273526592,2.636622130716907
+TF,French Southern and Antarctic Lands,Antarctica,Sub-Saharan Africa,4.126483104018874,2.817136171660294
+TG,Togo,Africa,Sub-Saharan Africa,2.7924785037434825,2.0473163488004813
+TH,Thailand,Asia,East Asia & Pacific,2.739784012443375,2.4667207900305606
+TJ,Tajikistan,Asia,Europe & Central Asia,5.552743490995422,2.8214604170095643
+TL,East Timor,Asia,East Asia & Pacific,5.53877605328769,3.8846814242960876
+TM,Turkmenistan,Asia,Europe & Central Asia,3.4011972436342135,2.512788928704367
+TN,Tunisia,Africa,Middle East & North Africa,3.7295769467759943,3.0117640538203356
+TO,Tonga,Oceania,East Asia & Pacific,2.008945758597504,1.659585157898231
+TR,Turkey,Asia,Europe & Central Asia,2.4871518011594236,2.200265527932947
+TT,Trinidad and Tobago,North America,Latin America & Caribbean,1.2610816238628229,1.1350880176545621
+TV,Tuvalu,Oceania,East Asia & Pacific,2.9686152223414917,2.150937356917949
+TW,Taiwan,Asia,East Asia & Pacific,1.6931409857049313,1.6258601713685996
+TZ,Tanzania,Africa,Sub-Saharan Africa,2.1109469463029424,1.81061160209779
+UA,Ukraine,Europe,Europe & Central Asia,3.1784601815831883,1.5388306779321688
+UG,Uganda,Africa,Sub-Saharan Africa,1.4268119760050084,1.248245789864818
+UM,United States Minor Outlying Islands,North America,East Asia & Pacific,3.594054810720191,3.136564746003224
+US,United States,North America,North America,1.7399875477735633,1.4236371355443438
+UY,Uruguay,South America,Latin America & Caribbean,1.92578476002587,1.545311197411376
+UZ,Uzbekistan,Asia,Europe & Central Asia,5.242899948525529,3.299528282648159
+VA,Vatican City,Europe,Europe & Central Asia,5.2122861298697005,2.5999180337802947
+VC,Saint Vincent and the Grenadines,North America,Latin America & Caribbean,1.5554535620217096,1.2889650922599976
+VE,Venezuela,South America,Latin America & Caribbean,1.5160188839907902,1.3285236070405226
+VG,British Virgin Islands,North America,Latin America & Caribbean,2.824724221853486,2.0320272142197813
+VI,United States Virgin Islands,North America,Latin America & Caribbean,1.4493902796684528,1.240839944760004
+VN,Vietnam,Asia,East Asia & Pacific,2.4482723361002154,2.2370365214234003
+VU,Vanuatu,Oceania,East Asia & Pacific,2.6259080436688147,2.025817406247695
+WF,Wallis and Futuna,Oceania,East Asia & Pacific,1.5290284101803404,1.3759661479213412
+WS,Samoa,Oceania,East Asia & Pacific,1.7399396910521019,1.5037724605984202
+XK,Kosovo,Europe,Europe & Central Asia,4.377046521238011,2.5201927595738565
+YE,Yemen,Asia,Middle East & North Africa,1.990743382414063,1.7755136671391365
+ZA,South Africa,Africa,Sub-Saharan Africa,1.4567681686141007,1.2081376170084885
+ZM,Zambia,Africa,Sub-Saharan Africa,1.3894046613125461,1.2199198779510607
+ZW,Zimbabwe,Africa,Sub-Saharan Africa,1.3227233800180525,1.198016633467721

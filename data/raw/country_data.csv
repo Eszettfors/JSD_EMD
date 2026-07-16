@@ -1,0 +1,240 @@
+country_code,country_code_a3,country_name,continent,region_wb,income_grp
+AD,AND,Andorra,Europe,Europe & Central Asia,2. High income: nonOECD
+AE,ARE,United Arab Emirates,Asia,Middle East & North Africa,2. High income: nonOECD
+AF,AFG,Afghanistan,Asia,South Asia,5. Low income
+AG,ATG,Antigua and Barbuda,North America,Latin America & Caribbean,3. Upper middle income
+AI,AIA,Anguilla,North America,Latin America & Caribbean,3. Upper middle income
+AL,ALB,Albania,Europe,Europe & Central Asia,4. Lower middle income
+AM,ARM,Armenia,Asia,Europe & Central Asia,4. Lower middle income
+AO,AGO,Angola,Africa,Sub-Saharan Africa,3. Upper middle income
+AQ,ATA,Antarctica,Antarctica,Antarctica,2. High income: nonOECD
+AR,ARG,Argentina,South America,Latin America & Caribbean,3. Upper middle income
+AS,ASM,American Samoa,Oceania,East Asia & Pacific,3. Upper middle income
+AT,AUT,Austria,Europe,Europe & Central Asia,1. High income: OECD
+AU,AUS,Australia,Oceania,East Asia & Pacific,1. High income: OECD
+AW,ABW,Aruba,North America,Latin America & Caribbean,2. High income: nonOECD
+AX,ALA,Åland,Europe,Europe & Central Asia,1. High income: OECD
+AZ,AZE,Azerbaijan,Asia,Europe & Central Asia,3. Upper middle income
+BA,BIH,Bosnia and Herzegovina,Europe,Europe & Central Asia,3. Upper middle income
+BB,BRB,Barbados,North America,Latin America & Caribbean,2. High income: nonOECD
+BD,BGD,Bangladesh,Asia,South Asia,5. Low income
+BE,BEL,Belgium,Europe,Europe & Central Asia,1. High income: OECD
+BF,BFA,Burkina Faso,Africa,Sub-Saharan Africa,5. Low income
+BG,BGR,Bulgaria,Europe,Europe & Central Asia,3. Upper middle income
+BH,BHR,Bahrain,Asia,Middle East & North Africa,2. High income: nonOECD
+BI,BDI,Burundi,Africa,Sub-Saharan Africa,5. Low income
+BJ,BEN,Benin,Africa,Sub-Saharan Africa,5. Low income
+BL,BLM,Saint Barthélemy,North America,Latin America & Caribbean,1. High income: OECD
+BM,BMU,Bermuda,North America,North America,2. High income: nonOECD
+BN,BRN,Brunei,Asia,East Asia & Pacific,2. High income: nonOECD
+BO,BOL,Bolivia,South America,Latin America & Caribbean,4. Lower middle income
+BR,BRA,Brazil,South America,Latin America & Caribbean,3. Upper middle income
+BS,BHS,Bahamas,North America,Latin America & Caribbean,2. High income: nonOECD
+BT,BTN,Bhutan,Asia,South Asia,4. Lower middle income
+BW,BWA,Botswana,Africa,Sub-Saharan Africa,3. Upper middle income
+BY,BLR,Belarus,Europe,Europe & Central Asia,3. Upper middle income
+BZ,BLZ,Belize,North America,Latin America & Caribbean,4. Lower middle income
+CA,CAN,Canada,North America,North America,1. High income: OECD
+CD,COD,Democratic Republic of the Congo,Africa,Sub-Saharan Africa,5. Low income
+CF,CAF,Central African Republic,Africa,Sub-Saharan Africa,5. Low income
+CG,COG,Republic of the Congo,Africa,Sub-Saharan Africa,4. Lower middle income
+CH,CHE,Switzerland,Europe,Europe & Central Asia,1. High income: OECD
+CI,CIV,Ivory Coast,Africa,Sub-Saharan Africa,4. Lower middle income
+CK,COK,Cook Islands,Oceania,East Asia & Pacific,3. Upper middle income
+CL,CHL,Chile,South America,Latin America & Caribbean,3. Upper middle income
+CM,CMR,Cameroon,Africa,Sub-Saharan Africa,4. Lower middle income
+CN,CHN,China,Asia,East Asia & Pacific,3. Upper middle income
+CO,COL,Colombia,South America,Latin America & Caribbean,3. Upper middle income
+CR,CRI,Costa Rica,North America,Latin America & Caribbean,3. Upper middle income
+CU,CUB,Cuba,North America,Latin America & Caribbean,3. Upper middle income
+CV,CPV,Cape Verde,Africa,Sub-Saharan Africa,4. Lower middle income
+CW,CUW,Curaçao,North America,Latin America & Caribbean,2. High income: nonOECD
+CY,CYP,Cyprus,Asia,Europe & Central Asia,2. High income: nonOECD
+CZ,CZE,Czech Republic,Europe,Europe & Central Asia,1. High income: OECD
+DE,DEU,Germany,Europe,Europe & Central Asia,1. High income: OECD
+DJ,DJI,Djibouti,Africa,Middle East & North Africa,4. Lower middle income
+DK,DNK,Denmark,Europe,Europe & Central Asia,1. High income: OECD
+DM,DMA,Dominica,North America,Latin America & Caribbean,3. Upper middle income
+DO,DOM,Dominican Republic,North America,Latin America & Caribbean,3. Upper middle income
+DZ,DZA,Algeria,Africa,Middle East & North Africa,3. Upper middle income
+EC,ECU,Ecuador,South America,Latin America & Caribbean,3. Upper middle income
+EE,EST,Estonia,Europe,Europe & Central Asia,1. High income: OECD
+EG,EGY,Egypt,Africa,Middle East & North Africa,4. Lower middle income
+EH,ESH,Western Sahara,Africa,Middle East & North Africa,5. Low income
+ER,ERI,Eritrea,Africa,Sub-Saharan Africa,5. Low income
+ES,ESP,Spain,Europe,Europe & Central Asia,1. High income: OECD
+ET,ETH,Ethiopia,Africa,Sub-Saharan Africa,5. Low income
+FI,FIN,Finland,Europe,Europe & Central Asia,1. High income: OECD
+FJ,FJI,Fiji,Oceania,East Asia & Pacific,4. Lower middle income
+FK,FLK,Falkland Islands,South America,Latin America & Caribbean,1. High income: OECD
+FM,FSM,Federated States of Micronesia,Oceania,East Asia & Pacific,4. Lower middle income
+FO,FRO,Faroe Islands,Europe,Europe & Central Asia,2. High income: nonOECD
+FR,FRA,France,Europe,Europe & Central Asia,1. High income: OECD
+GA,GAB,Gabon,Africa,Sub-Saharan Africa,3. Upper middle income
+GB,GBR,United Kingdom,Europe,Europe & Central Asia,1. High income: OECD
+GD,GRD,Grenada,North America,Latin America & Caribbean,3. Upper middle income
+GE,GEO,Georgia,Asia,Europe & Central Asia,4. Lower middle income
+GG,GGY,Guernsey,Europe,Europe & Central Asia,2. High income: nonOECD
+GH,GHA,Ghana,Africa,Sub-Saharan Africa,4. Lower middle income
+GI,GIB,Gibraltar,Europe,Europe & Central Asia,1. High income: OECD
+GL,GRL,Greenland,North America,Europe & Central Asia,2. High income: nonOECD
+GM,GMB,Gambia,Africa,Sub-Saharan Africa,5. Low income
+GN,GIN,Guinea,Africa,Sub-Saharan Africa,5. Low income
+GQ,GNQ,Equatorial Guinea,Africa,Sub-Saharan Africa,2. High income: nonOECD
+GR,GRC,Greece,Europe,Europe & Central Asia,1. High income: OECD
+GS,SGS,South Georgia and the South Sandwich Islands,South America,Antarctica,5. Low income
+GT,GTM,Guatemala,North America,Latin America & Caribbean,4. Lower middle income
+GU,GUM,Guam,Oceania,East Asia & Pacific,2. High income: nonOECD
+GW,GNB,Guinea-Bissau,Africa,Sub-Saharan Africa,5. Low income
+GY,GUY,Guyana,South America,Latin America & Caribbean,4. Lower middle income
+HK,HKG,Hong Kong,Asia,East Asia & Pacific,2. High income: nonOECD
+HM,HMD,Heard Island and McDonald Islands,Antarctica,Sub-Saharan Africa,5. Low income
+HN,HND,Honduras,North America,Latin America & Caribbean,4. Lower middle income
+HR,HRV,Croatia,Europe,Europe & Central Asia,2. High income: nonOECD
+HT,HTI,Haiti,North America,Latin America & Caribbean,5. Low income
+HU,HUN,Hungary,Europe,Europe & Central Asia,1. High income: OECD
+ID,IDN,Indonesia,Asia,East Asia & Pacific,4. Lower middle income
+IE,IRL,Ireland,Europe,Europe & Central Asia,1. High income: OECD
+IL,ISR,Israel,Asia,Middle East & North Africa,1. High income: OECD
+IM,IMN,Isle of Man,Europe,Europe & Central Asia,2. High income: nonOECD
+IN,IND,India,Asia,South Asia,4. Lower middle income
+IO,IOT,British Indian Ocean Territory,Asia,Sub-Saharan Africa,2. High income: nonOECD
+IQ,IRQ,Iraq,Asia,Middle East & North Africa,4. Lower middle income
+IR,IRN,Iran,Asia,Middle East & North Africa,3. Upper middle income
+IS,ISL,Iceland,Europe,Europe & Central Asia,1. High income: OECD
+IT,ITA,Italy,Europe,Europe & Central Asia,1. High income: OECD
+JE,JEY,Jersey,Europe,Europe & Central Asia,2. High income: nonOECD
+JM,JAM,Jamaica,North America,Latin America & Caribbean,3. Upper middle income
+JO,JOR,Jordan,Asia,Middle East & North Africa,3. Upper middle income
+JP,JPN,Japan,Asia,East Asia & Pacific,1. High income: OECD
+KE,KEN,Kenya,Africa,Sub-Saharan Africa,5. Low income
+KG,KGZ,Kyrgyzstan,Asia,Europe & Central Asia,5. Low income
+KH,KHM,Cambodia,Asia,East Asia & Pacific,5. Low income
+KI,KIR,Kiribati,Oceania,East Asia & Pacific,4. Lower middle income
+KM,COM,Comoros,Africa,Sub-Saharan Africa,5. Low income
+KN,KNA,Saint Kitts and Nevis,North America,Latin America & Caribbean,2. High income: nonOECD
+KP,PRK,North Korea,Asia,East Asia & Pacific,5. Low income
+KR,KOR,South Korea,Asia,East Asia & Pacific,1. High income: OECD
+KW,KWT,Kuwait,Asia,Middle East & North Africa,2. High income: nonOECD
+KY,CYM,Cayman Islands,North America,Latin America & Caribbean,2. High income: nonOECD
+KZ,KAZ,Kazakhstan,Asia,Europe & Central Asia,3. Upper middle income
+LA,LAO,Laos,Asia,East Asia & Pacific,4. Lower middle income
+LB,LBN,Lebanon,Asia,Middle East & North Africa,3. Upper middle income
+LC,LCA,Saint Lucia,North America,Latin America & Caribbean,3. Upper middle income
+LI,LIE,Liechtenstein,Europe,Europe & Central Asia,2. High income: nonOECD
+LK,LKA,Sri Lanka,Asia,South Asia,4. Lower middle income
+LR,LBR,Liberia,Africa,Sub-Saharan Africa,5. Low income
+LS,LSO,Lesotho,Africa,Sub-Saharan Africa,4. Lower middle income
+LT,LTU,Lithuania,Europe,Europe & Central Asia,3. Upper middle income
+LU,LUX,Luxembourg,Europe,Europe & Central Asia,1. High income: OECD
+LV,LVA,Latvia,Europe,Europe & Central Asia,3. Upper middle income
+LY,LBY,Libya,Africa,Middle East & North Africa,3. Upper middle income
+MA,MAR,Morocco,Africa,Middle East & North Africa,4. Lower middle income
+MC,MCO,Monaco,Europe,Europe & Central Asia,2. High income: nonOECD
+MD,MDA,Moldova,Europe,Europe & Central Asia,4. Lower middle income
+ME,MNE,Montenegro,Europe,Europe & Central Asia,3. Upper middle income
+MF,MAF,Saint Martin,North America,Latin America & Caribbean,2. High income: nonOECD
+MG,MDG,Madagascar,Africa,Sub-Saharan Africa,5. Low income
+MH,MHL,Marshall Islands,Oceania,East Asia & Pacific,4. Lower middle income
+MK,MKD,North Macedonia,Europe,Europe & Central Asia,3. Upper middle income
+ML,MLI,Mali,Africa,Sub-Saharan Africa,5. Low income
+MM,MMR,Myanmar,Asia,East Asia & Pacific,5. Low income
+MN,MNG,Mongolia,Asia,East Asia & Pacific,4. Lower middle income
+MO,MAC,Macao,Asia,East Asia & Pacific,2. High income: nonOECD
+MP,MNP,Northern Mariana Islands,Oceania,East Asia & Pacific,2. High income: nonOECD
+MR,MRT,Mauritania,Africa,Sub-Saharan Africa,5. Low income
+MS,MSR,Montserrat,North America,Latin America & Caribbean,4. Lower middle income
+MT,MLT,Malta,Europe,Middle East & North Africa,2. High income: nonOECD
+MU,MUS,Mauritius,Africa,Sub-Saharan Africa,3. Upper middle income
+MV,MDV,Maldives,Asia,South Asia,3. Upper middle income
+MW,MWI,Malawi,Africa,Sub-Saharan Africa,5. Low income
+MX,MEX,Mexico,North America,Latin America & Caribbean,3. Upper middle income
+MY,MYS,Malaysia,Asia,East Asia & Pacific,3. Upper middle income
+MZ,MOZ,Mozambique,Africa,Sub-Saharan Africa,5. Low income
+NA,NAM,Namibia,Africa,Sub-Saharan Africa,3. Upper middle income
+NC,NCL,New Caledonia,Oceania,East Asia & Pacific,2. High income: nonOECD
+NE,NER,Niger,Africa,Sub-Saharan Africa,5. Low income
+NF,NFK,Norfolk Island,Oceania,East Asia & Pacific,4. Lower middle income
+NG,NGA,Nigeria,Africa,Sub-Saharan Africa,4. Lower middle income
+NI,NIC,Nicaragua,North America,Latin America & Caribbean,4. Lower middle income
+NL,NLD,Netherlands,Europe,Europe & Central Asia,1. High income: OECD
+NO,NOR,Norway,Europe,Europe & Central Asia,1. High income: OECD
+NP,NPL,Nepal,Asia,South Asia,5. Low income
+NR,NRU,Nauru,Oceania,East Asia & Pacific,4. Lower middle income
+NU,NIU,Niue,Oceania,East Asia & Pacific,3. Upper middle income
+NZ,NZL,New Zealand,Oceania,East Asia & Pacific,1. High income: OECD
+OM,OMN,Oman,Asia,Middle East & North Africa,2. High income: nonOECD
+PA,PAN,Panama,North America,Latin America & Caribbean,3. Upper middle income
+PE,PER,Peru,South America,Latin America & Caribbean,3. Upper middle income
+PF,PYF,French Polynesia,Oceania,East Asia & Pacific,2. High income: nonOECD
+PG,PNG,Papua New Guinea,Oceania,East Asia & Pacific,4. Lower middle income
+PH,PHL,Philippines,Asia,East Asia & Pacific,4. Lower middle income
+PK,PAK,Pakistan,Asia,South Asia,4. Lower middle income
+PL,POL,Poland,Europe,Europe & Central Asia,1. High income: OECD
+PM,SPM,Saint Pierre and Miquelon,North America,North America,3. Upper middle income
+PN,PCN,Pitcairn Islands,Oceania,East Asia & Pacific,5. Low income
+PR,PRI,Puerto Rico,North America,Latin America & Caribbean,2. High income: nonOECD
+PS,PSE,Palestine,Asia,Middle East & North Africa,4. Lower middle income
+PT,PRT,Portugal,Europe,Europe & Central Asia,1. High income: OECD
+PW,PLW,Palau,Oceania,East Asia & Pacific,3. Upper middle income
+PY,PRY,Paraguay,South America,Latin America & Caribbean,4. Lower middle income
+QA,QAT,Qatar,Asia,Middle East & North Africa,2. High income: nonOECD
+RO,ROU,Romania,Europe,Europe & Central Asia,3. Upper middle income
+RS,SRB,Serbia,Europe,Europe & Central Asia,3. Upper middle income
+RU,RUS,Russia,Europe,Europe & Central Asia,3. Upper middle income
+RW,RWA,Rwanda,Africa,Sub-Saharan Africa,5. Low income
+SA,SAU,Saudi Arabia,Asia,Middle East & North Africa,2. High income: nonOECD
+SB,SLB,Solomon Islands,Oceania,East Asia & Pacific,4. Lower middle income
+SC,SYC,Seychelles,Africa,Sub-Saharan Africa,3. Upper middle income
+SD,SDN,Sudan,Africa,Sub-Saharan Africa,4. Lower middle income
+SE,SWE,Sweden,Europe,Europe & Central Asia,1. High income: OECD
+SG,SGP,Singapore,Asia,East Asia & Pacific,2. High income: nonOECD
+SH,SHN,"Saint Helena, Ascension, and Tristan da Cunha",Africa,Sub-Saharan Africa,4. Lower middle income
+SI,SVN,Slovenia,Europe,Europe & Central Asia,1. High income: OECD
+SK,SVK,Slovakia,Europe,Europe & Central Asia,1. High income: OECD
+SL,SLE,Sierra Leone,Africa,Sub-Saharan Africa,5. Low income
+SM,SMR,San Marino,Europe,Europe & Central Asia,2. High income: nonOECD
+SN,SEN,Senegal,Africa,Sub-Saharan Africa,4. Lower middle income
+SO,SOM,Somalia,Africa,Sub-Saharan Africa,5. Low income
+SR,SUR,Suriname,South America,Latin America & Caribbean,3. Upper middle income
+SS,SSD,South Sudan,Africa,Sub-Saharan Africa,5. Low income
+ST,STP,São Tomé and Príncipe,Africa,Sub-Saharan Africa,4. Lower middle income
+SV,SLV,El Salvador,North America,Latin America & Caribbean,4. Lower middle income
+SX,SXM,Sint Maarten,North America,Latin America & Caribbean,2. High income: nonOECD
+SY,SYR,Syria,Asia,Middle East & North Africa,4. Lower middle income
+SZ,SWZ,Eswatini,Africa,Sub-Saharan Africa,4. Lower middle income
+TC,TCA,Turks and Caicos Islands,North America,Latin America & Caribbean,2. High income: nonOECD
+TD,TCD,Chad,Africa,Sub-Saharan Africa,5. Low income
+TF,ATF,French Southern and Antarctic Lands,Antarctica,Sub-Saharan Africa,2. High income: nonOECD
+TG,TGO,Togo,Africa,Sub-Saharan Africa,5. Low income
+TH,THA,Thailand,Asia,East Asia & Pacific,3. Upper middle income
+TJ,TJK,Tajikistan,Asia,Europe & Central Asia,5. Low income
+TL,TLS,East Timor,Asia,East Asia & Pacific,4. Lower middle income
+TM,TKM,Turkmenistan,Asia,Europe & Central Asia,3. Upper middle income
+TN,TUN,Tunisia,Africa,Middle East & North Africa,3. Upper middle income
+TO,TON,Tonga,Oceania,East Asia & Pacific,4. Lower middle income
+TR,TUR,Turkey,Asia,Europe & Central Asia,3. Upper middle income
+TT,TTO,Trinidad and Tobago,North America,Latin America & Caribbean,2. High income: nonOECD
+TV,TUV,Tuvalu,Oceania,East Asia & Pacific,3. Upper middle income
+TW,TWN,Taiwan,Asia,East Asia & Pacific,2. High income: nonOECD
+TZ,TZA,Tanzania,Africa,Sub-Saharan Africa,5. Low income
+UA,UKR,Ukraine,Europe,Europe & Central Asia,4. Lower middle income
+UG,UGA,Uganda,Africa,Sub-Saharan Africa,5. Low income
+UM,UMI,United States Minor Outlying Islands,North America,East Asia & Pacific,5. Low income
+US,USA,United States,North America,North America,1. High income: OECD
+UY,URY,Uruguay,South America,Latin America & Caribbean,3. Upper middle income
+UZ,UZB,Uzbekistan,Asia,Europe & Central Asia,4. Lower middle income
+VA,VAT,Vatican City,Europe,Europe & Central Asia,2. High income: nonOECD
+VC,VCT,Saint Vincent and the Grenadines,North America,Latin America & Caribbean,3. Upper middle income
+VE,VEN,Venezuela,South America,Latin America & Caribbean,3. Upper middle income
+VG,VGB,British Virgin Islands,North America,Latin America & Caribbean,1. High income: OECD
+VI,VIR,United States Virgin Islands,North America,Latin America & Caribbean,2. High income: nonOECD
+VN,VNM,Vietnam,Asia,East Asia & Pacific,4. Lower middle income
+VU,VUT,Vanuatu,Oceania,East Asia & Pacific,4. Lower middle income
+WF,WLF,Wallis and Futuna,Oceania,East Asia & Pacific,4. Lower middle income
+WS,WSM,Samoa,Oceania,East Asia & Pacific,4. Lower middle income
+XK,XKX,Kosovo,Europe,Europe & Central Asia,4. Lower middle income
+YE,YEM,Yemen,Asia,Middle East & North Africa,4. Lower middle income
+ZA,ZAF,South Africa,Africa,Sub-Saharan Africa,3. Upper middle income
+ZM,ZMB,Zambia,Africa,Sub-Saharan Africa,4. Lower middle income
+ZW,ZWE,Zimbabwe,Africa,Sub-Saharan Africa,5. Low income

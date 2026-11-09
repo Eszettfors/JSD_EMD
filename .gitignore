@@ -2,3 +2,4 @@
 .Rhistory
 .RData
 .Ruserdata
+data/processed/page_views_ts.csv

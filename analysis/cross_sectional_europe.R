@@ -21,7 +21,7 @@ library(randomcoloR)
 
 set.seed(42)
 
-# read d# read d# read data
+# read data
 df_div = read_csv("data/processed/diversity_cs.csv")
 df_pw = read_csv("data/processed/page_views_cs.csv")
 df_pairs = read_csv("data/processed/pairwise_distances.csv")
@@ -61,9 +61,8 @@ df_pairs = df_pairs %>%
 # prepare geo data
 df_geo = ne_countries(scale = "medium")
 df_geo = df_geo %>%
-  select(iso_a2_eh, pop_est, subregion) %>%
+  select(iso_a2_eh, name, pop_est, subregion) %>%
   rename("country_code" = iso_a2_eh)
-
 
 df_geo = st_transform(df_geo, 3035)
 
@@ -79,6 +78,7 @@ get_jsd = function(p, q){
   return(sqrt(jsd))
 }
 
+# some tests
 A = c(0.25, 0.5, 0.25, 0, 0)
 B = c(0.5, 0, 0, 0.1, 0.4)
 get_jsd(A, B)
@@ -88,7 +88,6 @@ get_jsd(A2, B)
 
 
 get_jsd(c(0,1), c(1,0))
-
 
 # Descriptive statistics
 df_pw = df_pw %>%
@@ -167,9 +166,11 @@ phyl_div = df_div %>%
   coord_sf(xlim = c(2500000, 7300000), ylim = c(1500000, 5200000))
 
 # dominant language
-dom_lang = df_pw %>%
+df_dom_lang = df_pw %>%
   group_by(country_code) %>%
-  slice_max(n = 1, prop) %>%
+  slice_max(n = 1, prop)
+
+dom_lang = df_dom_lang %>%
   right_join(df_geo, join_by(country_code)) %>%
   st_as_sf() %>%
   ggplot(aes(geometry = geometry, fill = language_name)) + 
@@ -203,17 +204,20 @@ dom_2_lang = df_pw %>%
 
 # make sure colorus are the same across plots
 all_languages = union(dom_lang$data$language_name, dom_2_lang$data$language_name)
-color_palette = distinctColorPalette(k = length(all_languages))
-names(color_palette) = all_languages
+colors = c(Spanish = "#F1BF00", English = "#CE1124", Armenian = "purple", German = "grey", Swedish = "#006AA7", French = "#000091", Bulgarian = "#00966E",
+           Azerbaijani = "#0092BC", Italian = "#CDDFA0", Russian = muted("purple"), Georgian = "#BA274A", Czech = "#BA9D27", Slovak = "#B2ECE1", Finnish = "#002F6C", 
+           Turkish = "pink", Polish = "#EE85B5", Albanian = "#BA0C0C", Croatian = "#6BAA75", Icelandic = "#02529C", Lithuanian = "#046A38", Romanian = "#FCD116",
+           Portuguese = "#55868C", Macedonian = "#253133", Ukrainian = "lightblue", Slovenian = "#A8DCD1", Serbian = "#73BFB8", Dutch = "orange", Hungarian = "#77AF9C",
+           Norwegian = "#EFF1F3", Estonian = "#0072CE", Danish = "#ED6A5A", Greek = "#0D5EAF")
+
+color_palette = colors[all_languages]
 
 dom_lang = dom_lang +
   scale_fill_manual(values = color_palette, name = element_blank())
-
+print(dom_lang)
 dom_2_lang = dom_2_lang +
   scale_fill_manual(values = color_palette, name = element_blank())
-
-
-distinctColorPalette(k = length(all_languages))
+print(dom_2_lang)
 
 # Display the plots
 print(dom_lang)
@@ -225,12 +229,37 @@ ggsave("analysis/plots/diversity_maps_europe.png", div_maps, width = 12 , height
 
 
 # plot diversity against one another
-df_div %>%
+diversity_cor = cor.test(df_div$naive_div_q_1, df_div$phyl_div_q_1, method = "spearman")
+
+phyl_vs_naive_div = df_div %>%
   left_join(df_geo) %>%
+  mutate(subregion = ifelse(country_name == "Gibraltar", "Southern Europe", subregion)) %>%
   ggplot(aes(y = rank(phyl_div_q_1), x = rank(naive_div_q_1), fill = subregion)) + 
   geom_point() + 
-  geom_label(aes(label = country_name)) + 
-  geom_abline(intercept = 0, slope = 1)
+  geom_label_repel(aes(label = country_name)) + 
+  geom_abline(intercept = 0, slope = 1) +
+  labs(y = "Phylogenetic diversity, q = 1 (rank)",
+       x = "Naive diversity, q = 1 (rank)",
+       title = paste0("Relationship between phylogenetic and naive diveristy, q = 1, Sperman's Rho = ", round(diversity_cor$estimate, 2))) + 
+  theme(legend.position = c(0.9,0.2))
+
+ggsave("analysis/plots/phyl_vs_naive_div.png", phyl_vs_naive_div, width = 8, height = 8, dpi = 300)
+
+# map difference in diversity
+df_div %>%
+  right_join(df_geo, join_by(country_code)) %>%
+  mutate(div_diff = phyl_div_q_1 - naive_div_q_1) %>%
+  st_as_sf() %>%
+  ggplot(aes(geometry = geometry, fill = div_diff)) + 
+  geom_sf(colour = "black", size = 0.2) + 
+  scale_fill_gradient2(low = ("lightblue"), mid = "white") + 
+  labs(fill = "Eff. no. \nLanguages",
+       title = "A) diveristy difference") +
+  theme(legend.position = c(0.1, 0.5),
+        axis.ticks = element_blank(),
+        axis.text = element_blank(),
+        legend.background = element_blank()) +
+  coord_sf(xlim = c(2500000, 7300000), ylim = c(1500000, 5200000))
 
 
 # table of countries according to diversity
@@ -318,49 +347,6 @@ Desc(df_pairs$jsd) # mean dist 0.70
 Desc(df_pairs$jsd_phyl_dist) # mean dist 0.54
 Desc(df_pairs$diff_jsd) # mean 0.16
   
-
-# most distant jsd
-df_pairs %>%
-  slice_max(jsd, n = 5) %>%
-  select(country_name_1, country_name_2, jsd, jsd_phyl_dist, diff_jsd) %>%
-  xtable()
-
-# least jsd
-df_pairs %>%
-  slice_min(jsd, n = 5) %>%
-  select(country_name_1, country_name_2, jsd, jsd_phyl_dist, diff_jsd) %>%
-  xtable()
-
-
-# most phyl dist
-df_pairs %>%
-  slice_max(jsd_phyl_dist, n = 5) %>%
-  select(country_name_1, country_name_2, jsd_phyl_dist) %>%
-  xtable()
-
-# least phyl dist
-df_pairs %>%
-  slice_min(jsd_phyl_dist, n = 5) %>%
-  select(country_name_1, country_name_2, jsd, jsd_phyl_dist, diff_jsd) %>%
-  xtable()
-
-# largest diff
-df_pairs %>%
-  slice_max(diff_jsd, n = 5) %>%
-  select(country_name_1, country_name_2, jsd, jsd_phyl_dist, diff_jsd) %>%
-  xtable()
-
-# smallest diff
-df_pairs %>%
-  slice_min(diff_jsd, n = 5) %>%
-  select(country_name_1, country_name_2, jsd, jsd_phyl_dist, diff_jsd) %>%
-  xtable()
-
-top_jsd_tree = get_treemap(c("Belarus", "Russia", "Italy", "Spain"))
-ggsave("analysis/plots/top_jsd.png", top_jsd_tree, dpi = 300, widt = 8, height = 8)
-
-bot_jsd = get_treemap(c("Jersey", "Guernsey", "Austria", "Germany"))
-ggsave("analysis/plots/bot_jsd.png", bot_jsd, dpi = 300, widt = 8, height = 8)
 
 #### clustering #####
 
@@ -511,131 +497,15 @@ print(dendrogram_phyl_13)
 ggsave("analysis/plots/dendrogram_phyl.png", dendrogram_phyl_13, height = 12, width = 6, dpi = 300)
 
 
-cor_cophenetic(hc_jsd, hc_phyl) # r = 0.844
-
-
-# multidimensional scaling ####
-stress_values = c()
-for (k in 2:20){
-   mds_res = isoMDS(jsd_mat, k = k)
-   stress_res = mds_res$stress
-   stress_values = c(stress_values, stress_res)
-}
-
-mds_elbow_jsd = data.frame(stress = stress_values, k = 2:20)
-mds_elbow_jsd %>%
-  ggplot(aes(y = stress_values, x = k)) + 
-  geom_point() + 
-  geom_line() # k = 8 seems best
-
-mds = isoMDS(jsd_mat, k = 2)[[1]]
-mds_df = as_data_frame(mds)
-colnames(mds_df) = c(paste0("Dim", 1:2))
-mds_df$country_code = europe_countries
-
-dom_lang = df_pw %>%
-  group_by(country_code) %>%
-  slice_max(n = 1, prop) %>%
-  select(country_code, country_name, continent, language_name) %>%
-  rename("dominant_language" = language_name)
-
-dom_lang = dom_lang %>%
-  left_join(df_div %>%
-              select(country_code, naive_div_q_1))
-
-mds_df_jsd = mds_df %>%
-  left_join(dom_lang, join_by(country_code)) %>%
-  left_join(df_div %>%
-              select(country_code, naive_div_q_1))
-
-# dominant language colour
-mds_map_jsd = mds_df_jsd %>%
-  ggplot(aes(y = Dim2, x = Dim1, colour = dominant_language, size = naive_div_q_1)) + 
-  geom_label_repel(aes(label = country_name), max.overlaps = 15) + 
-  geom_point() + 
-  geom_hline(yintercept = 0, linetype = "dashed") + 
-  geom_vline(xintercept = 0, linetype = "dashed") + 
-  labs(title = "European map of similarity in Wikipedia language use, JSD",
-       colour = "Dominant Language",
-       x = "Dimension 1",
-       y = "Dimension 2",
-       size = "Diveristy, q = 1") + 
-  theme_bw(base_size = 15)
-  
-print(mds_map_jsd)
-ggsave("analysis/plots/mds_map_jsd.png", mds_map_jsd, width = 12, height = 8, dpi = 300)
-
-
-# EMD
-stress_values = c()
-for (k in 2:20){
-  mds_res = isoMDS(phyl_jsd_mat, k = k)
-  stress_res = mds_res$stress
-  stress_values = c(stress_values, stress_res)
-}
-
-mds_elbow_phyl = data.frame(stress = stress_values, k = 2:20)
-mds_elbow_phyl %>%
-  ggplot(aes(y = stress_values, x = k)) + 
-  geom_point() + 
-  geom_line() # k = 5 seems best
-
-mds_phyl = isoMDS(phyl_jsd_mat, k = 2)[[1]]
-
-mds_df_phyl = as_data_frame(mds_phyl)
-colnames(mds_df_phyl) = paste0("Dim", 1:2)
-mds_df_phyl$country_code = europe_countries
-
-mds_df_phyl = mds_df_phyl %>%
-  left_join(dom_lang, join_by(country_code)) %>%
-  left_join(df_div %>%
-              select(country_code, phyl_div_q_1))
-
-# dominant language colour
-mds_map_phyl = mds_df_phyl %>%
-  ggplot(aes(y = Dim2, x = Dim1, colour = dominant_language, size = phyl_div_q_1)) + 
-  geom_label_repel(aes(label = country_name), max.overlaps = 15) + 
-  geom_point() + 
-  geom_hline(yintercept = 0, linetype = "dashed") + 
-  geom_vline(xintercept = 0, linetype = "dashed") + 
-  labs(title = "European map of similarity in Wikipedia language use, Phylogenetic EMD",
-       colour = "Dominant Language",
-       x = "Dimension 1",
-       y = "Dimension 2",
-       size = "Phylogenetic Diversity, q = 1") + 
-  theme_bw(base_size = 15) + 
-  scale_y_reverse()
-
-print(mds_map_phyl)
-print(mds_map_jsd)
-ggsave("analysis/plots/mds_map_phyl.png", mds_map_phyl, width = 12, height = 8, dpi = 300)
-
-
-# elbow plot
-mds_elbow_jsd$measure = "JSD"
-mds_elbow_phyl$measure = "Phylogenetic EMD"
-
-mds_elbow = rbind(mds_elbow_jsd, mds_elbow_phyl)
-elbow_plot = mds_elbow %>%
-  ggplot(aes(y = stress, x = k, fill = measure, colour = measure)) + 
-  geom_point() + 
-  geom_line() + 
-  labs(title = "Stress values for increasing numbers of k, MDS",
-       x = "K", 
-       y = "Stress",
-       fill = "Measure",
-       colour = "Measure") + 
-  geom_vline(xintercept = c(5, 8), linetype = "dashed") + 
-  theme_bw(base_size = 15)
-print(elbow_plot)
-
-ggsave("analysis/plots/elbow_plot.png", elbow_plot, width = 12, height = 8, dpi = 300)
+cor_cophenetic(hc_jsd_average, hc_phyl_average) # r = 0.844
 
 
 ## population size vs diversity
 pop_div = df_div %>%
-  left_join(dom_lang) %>%
-  left_join(df_geo)
+  left_join(df_dom_lang) %>%
+  left_join(df_geo) %>%
+  rename("dominant_language" = language_name)
+  
 
 
 ## add estiamte for gibraltar
@@ -698,5 +568,3 @@ pop_div_no_micro %>%
        x = "Estimated Population (2019), Rank")
 
 cor.test(pop_div_no_micro$phyl_div_q_1, pop_div_no_micro$pop_est, method = "spearman")
-
-df_div
